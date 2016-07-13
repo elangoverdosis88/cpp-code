@@ -1,3 +1,6 @@
+// this file is to get idea of program structure
+
+
 #include <iostream>
 
 using namespace std;
