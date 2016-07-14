@@ -7,15 +7,15 @@
 using namespace std;
 
 int main(){
-    int int1;
-    long long1;
-    long long long2;
-    char char1;
-    float float1;
-    double double1;
+    int a;
+    long b;
+    long long c;
+    char d;
+    float e;
+    double f;
+    scanf("%d %ld %lld %c %f %lf", &a, &b, &c, &d, &e, &f);
 
-    cin >> int1 >> long1 >> long2 >> char1>> float1 >> double1;
-    cout << int1 << endl << long1 << endl << long2 << endl;
-    cout << char1 << endl << float1 << endl << double1 << endl;
+    printf("%d\n%ld\n%lld\n%c\n%f\n%lf", a, b, c, d, e, f);
+
     return 0;
 }
