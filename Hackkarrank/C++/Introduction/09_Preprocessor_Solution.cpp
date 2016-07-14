@@ -2,9 +2,21 @@
 // Created by ghost on 7/14/16.
 //
 
+//*******************************************************************************
+// This is the lines I made
+#define toStr(x) #x
+#define foreach(v,i) for(int i=0;i<n;i++)
+#define io(v) cin>>v
+#define minimum(x,y) if(x>y)x=y;
+#define maximum(x,y) if(x<y)x=y;
+#define INF 0
+#define FUNCTION(x,y)
+//  After form here is the original code
+//*******************************************************************************
+
+
 #include <iostream>
 #include <vector>
-#define toStr(Result=) "Result"
 
 using namespace std;
 
