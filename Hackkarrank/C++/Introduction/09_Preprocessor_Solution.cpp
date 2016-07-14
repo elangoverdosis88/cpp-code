@@ -4,6 +4,7 @@
 
 //*******************************************************************************
 // This is the lines I made
+//#include <algorithm>
 #define toStr(x) #x
 #define foreach(v,i) for(int i=0;i<n;i++)
 #define io(v) cin>>v
@@ -29,7 +30,7 @@ FUNCTION(maximum, >)
 
 int main(){
     int n; cin >> n;
-    vector<int> v(n);
+    vector<int> v((unsigned long) n);
     foreach(v, i) {
         io(v)[i];
     }
