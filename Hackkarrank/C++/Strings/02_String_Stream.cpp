@@ -23,10 +23,10 @@ int main() {
     string k;
     for (int i=0;i<s.size();i++){
 
-        if(s[i] == (char) ","){
+        if(s[i] == (char) ','){
         } else{
             k="";
-            while (s[i]!= (char) ","){
+            while (s[i]!= (char) ','){
                 k=k+s[i];
                 i+=1;
             }
